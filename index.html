@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Project</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/436d309958.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Header Section Starts-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT ME</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h2>Hi,I'm <span>Surya Trinadh <br> Chodisetty</span> From India</h2>
+                </div>
+            </div>
+        </div>
+        <!--Header Section Ends-->
+
+        <!--About Section Starts-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg" alt="user-image">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expertise')">Expertise</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-content active-tab" id="skills">
+                            <Ul>
+                                <li><span>UI/UX</span><br>Designing Web & App Interfaces</li>
+                                <li><span>Web Development</span><br>Developiing Creative Websites</li>
+                                <li><span>Graphic Designing</span><br>Creating Posters for Social Media</li>
+                            </Ul>
+                        </div>
+
+                        <div class="tab-content" id="expertise">
+                            <Ul>
+                                <li><span>2023-Present</span><br>Director & Chief Operarating Officer - Sense Semiconductor & IT Solutions Pvt. Ltd.</li>
+                                <li><span>2023-Present</span><br>Founder & Chief Operating Officer - Design Verge Innovations</li>
+                                <li><span>2022-2023</span><br>DOT NET Developer & Jr. UI/UX Designer - Value Creed LLC</li>
+                            </Ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <Ul>
+                                <li><span>2019-2023</span><br>B.Tech Mechanical Engineering - RGUKT Nuzvid</li>
+                                <li><span>2017-2019</span><br>Pre-University Course - RGUKT Nuzvid</li>
+                                <li><span>2016-2017</span><br>SSC - Sri Sai Vidyaniketan high School - Yanam</li>
+                            </Ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About Section Ends-->
+
+        <!--Services Section Starts-->
+        <div id="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-mobile"></i>
+                        <h3>UI/UX Desinging</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h3>Graphic Designing</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services Section Ends-->
+
+        <!--Portfolio Section Starts-->
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/SSIT.jpg" alt="SSIT">
+                        <div class="layer">
+                            <h3>SSIT Branding</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/tastyin.jpg" alt="Tastyin">
+                        <div class="layer">
+                            <h3>Tastyin Packaging Designs</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/stylesyncai.jpg" alt="stylesyncai">
+                        <div class="layer">
+                            <h3>StyleSync.AI User Interface Design</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio Section Ends-->
+
+        <!--Contact Section Starts-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="sub-title">Contact Me</h2>
+                        <p><i class="fa-solid fa-envelope"></i>suryachodisetty.sensesemi@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91 93927 36940</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <input type="email" name="email" placeholder="Enter your Email" required>
+                            <textarea name="message" rows="6" placeholder="Enter your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Surya Trinadh Chodisetty <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        <!--Contact Section Ends-->
+
+        <!--Script for About Tabs-->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-content");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+        <!--Script for About Tabs-->
+
+        <!--Script for Google Sheet-->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz1Xzc-Y-rmgfObIhVpX6IJIakFERWZ9CefgVS2wq-3L33Nbh-FFixpyETnmYU-t_PI/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+
+            form.addEventListener('submit', e=> {
+                e.preventDefault()
+                fetch(scriptURL,{ method: 'POST', body:new FormData(form)})
+                .then(Response =>{
+                    msg.innerHTML = "Thanks for Contacting us! Our team will get in touch with you shortly!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error("Error!",error.message))
+            }                
+            )
+        </script>
+
+        <!--Script for Google Sheet-->
+        <script>
+            var sidemenu = document.getElementById('sidemenu');
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = '-200px';
+            }
+        </script>
+        <!--Script for Side Menu-->
+
+    </body>
+</html>
